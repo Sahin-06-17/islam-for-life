@@ -1,0 +1,15 @@
+export const popularCities = [
+  { name: "Mecca", lat: 21.4225, lng: 39.8262 },
+  { name: "Medina", lat: 24.5247, lng: 39.5692 },
+  { name: "Kolkata", lat: 22.5726, lng: 88.3639 },
+  { name: "New Delhi", lat: 28.6139, lng: 77.2090 },
+  { name: "Mumbai", lat: 19.0760, lng: 72.8777 },
+  { name: "Bangalore", lat: 12.9716, lng: 77.5946 },
+  { name: "Hyderabad", lat: 17.3850, lng: 78.4867 },
+  { name: "Chennai", lat: 13.0827, lng: 80.2707 },
+  { name: "London", lat: 51.5074, lng: -0.1278 },
+  { name: "New York", lat: 40.7128, lng: -74.0060 },
+  { name: "Dubai", lat: 25.2048, lng: 55.2708 },
+  { name: "Istanbul", lat: 41.0082, lng: 28.9784 },
+  { name: "Kuala Lumpur", lat: 3.1319, lng: 101.6841 },
+];
