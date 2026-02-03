@@ -18,12 +18,13 @@ const nextConfig: NextConfig = {
     return config;
   },
 
-  // 2. Ignore Typescript errors (Keep this)
+  // 2. Disable Source Maps (CRITICAL FIX FOR VERCEL MEMORY)
+  productionBrowserSourceMaps: false,
+
+  // 3. Ignore Errors to prevent build failure
   typescript: {
     ignoreBuildErrors: true,
   },
-  
-  // REMOVED "eslint" block to fix the error
 };
 
 export default withPWA(nextConfig);
